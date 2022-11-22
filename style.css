@@ -1,0 +1,111 @@
+::-webkit-scrollbar {
+    width: 20px;
+    margin-left: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(85, 78, 78); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #858282; 
+  }
+  /*/////////////////////////////scrollbar///////////////////////////////////////////*/
+
+   /* ///////////////////////////// standards////////////////////////// */
+
+  body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  section{
+    display: inline-block;
+    text-align: center;
+    
+    width: 22%;
+  }
+h1{
+    text-align: center;
+   
+    
+}
+
+  /* ///////////////////////////// standards////////////////////////// */
+#parent{
+  max-height: 60vh;
+  overflow-y: auto;
+    margin: 7% 2%;
+    background-color: rgb(150, 218, 211);
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px black, 0 0 20px rgb(73, 73, 88), 0 0 3px rgb(77, 77, 109);
+    display: grid;
+    
+}
+
+
+#addTaskButtonContainer{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#addTaskButton{
+    background-color: #f4a261;
+    color: rgb(0, 0, 0);
+    border: 0 ;
+    border-radius: 7px;
+    padding: 10px 30px;
+    box-shadow: 1px 1px 1px #184e77, 0 0 5px rgb(92, 92, 211), 0 0 3px #d9ed92;
+    margin-left: 10px;
+    font-size: 20px;
+    transition: 1s;
+    font-weight: bold;
+    
+    
+}
+#buttonClear
+{
+  background-color: #f45846;
+    color: rgb(0, 0, 0);
+    border: 0 ;
+    border-radius: 7px;
+    padding: 10px 30px;
+    box-shadow: 1px 1px 1px #184e77, 0 0 5px rgb(92, 92, 211), 0 0 3px #d9ed92;
+    margin-left: 10px;
+    font-size: 20px;
+    transition: 1s;
+    font-weight: bold;
+
+}
+
+
+.divTask{
+    padding: 5px 10px 10px 10px;
+    margin: 2% 2%;
+    border-radius: 10px;
+    border: 1px solid rgb(161, 158, 158);
+    
+}
+
+
+p{
+font-size: 20px;
+color: rgb(255, 255, 255);
+font-family: 'Times New Roman', Times, serif;
+stroke-width: 5px;
+}
+  
+i{
+  margin: 7px;
+  cursor: pointer;
+}
+
+
